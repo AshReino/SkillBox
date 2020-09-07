@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Graphik LCG';
-    src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'), url('fonts/GraphikLCG-Medium.woff') format('woff');
+    src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'), url('../fonts/GraphikLCG-Medium.woff') format('woff');
     font-display: swap;
     font-weight: 500;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Regular.woff2') format('woff2'), url('fonts/Gilroy-Regular.woff') format('woff');
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff');
     font-display: swap;
     font-weight: normal;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'), url('fonts/Gilroy-ExtraBold.woff') format('woff');
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold.woff') format('woff');
     font-display: swap;
     font-weight: 800;
     font-style: normal;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Medium.woff2') format('woff2'), url('fonts/Gilroy-Medium.woff') format('woff');
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'), url('../fonts/Gilroy-Medium.woff') format('woff');
     font-display: swap;
     font-weight: 500;
     font-style: normal;
@@ -84,7 +84,7 @@ a {
 }
 
 .return {
-    background-image: url(return.png);
+    background-image: url(../img/return.png);
     background-position: center left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -123,6 +123,10 @@ figure {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+}
+
+figcaption {
+    margin-top: 30px;
 }
 
 img {
