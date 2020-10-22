@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1168px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 27px 30px;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    background-color: #cc9933;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.header {
+    margin-left: 45px;
+    margin-bottom: 24px;
+    font-size: 40px;
+}
+
+
+/* Header */
+
+.head {
+    height: 256px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.head-top {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 54px;
+}
+
+.head-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 28px;
+    height: 54px;
+    width: 262px;
+}
+
+.head-phone {
+    font-weight: bold;
+}
+
+.head-right {
+    margin-left: auto;
+}
+
+.top-down {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    border-radius: 12px;
+    height: 70px;
+    background: white;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.head-search {
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+
+/* Main-booking */
+
+.booking-container {
+    display: flex;
+}
+
+.booking-left {
+    flex: 1 1 45%;
+    margin-right: 55px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-item {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.booking-input {
+    width: 100%;
+}
+
+.booking-search {
+    display: flex;
+    align-items: center;
+}
+
+.booking-numbers {
+    margin-left: 30px;
+}
+
+.booking-right {
+    flex: 1 1 55%;
+    margin-left: 55px;
+}
+
+.booking-special-offer {
+    max-height: 540px;
+    background-image: url('/images/22@1.5x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.booking-special-name {
+    padding-top: 230px;
+    padding-left: 45px;
+    width: 321px;
+    height: 164px;
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.booking-details {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 43px;
+}
+
+.booking-price {
+    padding-left: 45px;
+    padding-top: 230px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.booking-see-more {
+    padding-left: 74px;
+    font-weight: 16px;
+    color: #ffcc66;
+}
+
+
+/* Main-about-us */
+
+.about-us-container {
+    padding-top: 70px;
+}
+
+.about-us-text {
+    margin-left: 42px;
+    max-width: 880px;
+}
+
+
+/* Main-services */
+
+.services-container {
+    padding-top: 70px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-item {
+    flex: 1 1 45%;
+    background-color: white;
+    border-radius: 12px;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.services-item:not(:nth-child(2n)) {
+    margin-right: 23px;
+}
+
+.s-item-1 {
+    margin-bottom: 23px;
+    background-image: url('/images/10@1.5x.png');
+}
+
+.s-item-2 {
+    margin-bottom: 23px;
+    background-image: url('/images/15@1.5x.png');
+}
+
+.s-item-3 {
+    background-image: url('/images/12@1.5x.png');
+}
+
+.s-item-4 {
+    background-image: url('/images/carlo-d-agnolo-aFxSh_l4fbY-unsplash@1.5x.png');
+}
+
+.services-description {
+    margin-left: 45px;
+    margin-right: 134px;
+    margin-top: 202px;
+    margin-bottom: 40px;
+}
+
+
+/* Main-features */
+
+.features-container {
+    padding-top: 70px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-item {
+    flex: 1 1 20%;
+    margin-bottom: 23px;
+    padding: 45px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-origin: content-box;
+    background-size: 63px 59px;
+    border-radius: 12px;
+}
+
+.features-item:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+
+.features-text {
+    margin-top: 80px;
+}
+
+.f-item-1 {
+    background-image: url('/images/bathtub.svg');
+}
+
+.f-item-2 {
+    background-image: url('/images/hanger.svg');
+}
+
+.f-item-3 {
+    background-image: url('/images/heating.svg');
+}
+
+.f-item-4 {
+    background-image: url('/images/hotel-key.svg');
+}
+
+.f-item-5 {
+    background-image: url('/images/parking.svg');
+}
+
+.f-item-6 {
+    background-image: url('/images/reception.svg');
+}
+
+.f-item-7 {
+    background-image: url('/images/security-box.svg');
+}
+
+.f-item-8 {
+    background-image: url('/images/swimming-pool.svg');
+}
+
+
+/* Main-accommodation*/
+
+.accommodation-container {
+    padding-top: 70px;
+}
+
+.accommodation-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accommodation-item {
+    flex: 1 1 30%;
+    margin-bottom: 26px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.accommodation-item:not(:nth-child(3n)) {
+    margin-right: 26px;
+}
+
+.accommodation-description {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 37px;
+    padding-bottom: 45px;
+}
+
+.accommodation-item-top {
+    display: flex;
+    flex: 1 1 50%;
+}
+
+.image-star {
+    width: 14px;
+    height: 13px;
+}
+
+.accommodation-text-1 {
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+.accommodation-text-2 {
+    margin-bottom: 18px;
+}
+
+.accommodation-text-3 {
+    margin-bottom: 20px;
+    color: #a0a0a0;
+}
+
+.accommodation-btn {
+    display: inline-block;
+    padding: 13px 21px;
+    border: 1px solid #cc9933;
+    border-radius: 12px;
+    color: #cc9933;
+    font-weight: bold;
+}
+
+.accommodation-item-last {
+    padding-top: 369px;
+    background-image: url('/images/41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.accommodation-item-all-options {
+    margin-left: 38px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
