@@ -49,7 +49,8 @@
                 </nav>
                 <div class="head-search">
                     <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="search-form">
-                        <input type="text" name="search" class="search-form-input" placeholder="Поиск">
+                        <input type="text" name="search" class="search-form-input" required placeholder="Поиск">
+                        <button class="search-form-button"></button>
                     </form>
                 </div>
             </div>
@@ -64,7 +65,7 @@
                     <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="booking-form">
                         <input type="text" name="city" placeholder="Город" class="booking-input">
                         <input type="text" name="room-type" placeholder="Категория номера" class="booking-input">
-                        <input type="date" name="date" class="booking-input">
+                        <input type="text" name="date" placeholder="Дата заселения" required class="booking-input" onfocus="(this.type='date')" onblur="(this.type='text')">
                         <input type="number" name="nights" placeholder="Количество ночей" class="booking-input">
                         <input type="text" name="guest-number" placeholder="Количество гостей" class="booking-input">
                         <div class="booking-search">
