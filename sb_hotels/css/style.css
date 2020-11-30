@@ -56,14 +56,6 @@ html {
     --light-grey-color: #666666;
 }
 
-.container {
-    max-width: 1198px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 .btn {
     display: inline-block;
     padding: 28px 30px;
@@ -261,13 +253,8 @@ html {
 
 /* Main-booking */
 
-.booking-container {
-    display: flex;
-}
-
 .booking-left {
-    margin-right: 55px;
-    width: 518px;
+    height: 100%;
 }
 
 .booking-form {
@@ -281,7 +268,6 @@ html {
     padding-right: 24px;
     border: 0;
     border-radius: 12px;
-    width: 518px;
     height: 70px;
     background-color: #fff;
 }
@@ -309,14 +295,13 @@ html {
 }
 
 .booking-right {
-    width: 596px;
+    height: 100%;
 }
 
 .booking-special-offer {
     display: flex;
     flex-direction: column;
     padding: 265px 230px 35px 45px;
-    max-height: 540px;
     background: url('/images/22@1.5x.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -377,26 +362,16 @@ html {
 
 /* Main-services */
 
-.services-container {
+.section-services {
     padding-top: 70px;
 }
 
-.services-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .services-item {
-    width: 572px;
     border-radius: 12px;
     background-color: #fff;
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.services-item:not(:nth-child(2n)) {
-    margin-right: 23px;
 }
 
 .s-item-1 {
@@ -447,10 +422,10 @@ html {
 }
 
 .services-description {
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 202px;
-    margin-bottom: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 202px;
+    padding-bottom: 40px;
 }
 
 .services-text {
@@ -462,28 +437,18 @@ html {
 
 /* Main-features */
 
-.features-container {
+.section-features {
     padding-top: 70px;
 }
 
-.features-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .features-item {
-    width: 274px;
     padding: 40px 45px;
     border-radius: 12px;
-    background-color: #fff;
     background-repeat: no-repeat;
     background-position: top left;
     background-origin: content-box;
     background-size: 63px 59px;
-}
-
-.features-item:not(:nth-child(4n)) {
-    margin-right: 23px;
+    background-color: #fff;
 }
 
 .f-item-1 {
@@ -533,24 +498,17 @@ html {
 
 /* Main-accommodation*/
 
-.accommodation-container {
+.section-accommodation {
     padding-top: 70px;
 }
 
-.accommodation-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .accommodation-item {
-    width: 372px;
     margin-bottom: 26px;
-    border-radius: 12px;
-    background-color: #fff;
 }
 
-.accommodation-item:not(:nth-child(3n)) {
-    margin-right: 26px;
+.accommodation-item-box {
+    background-color: #fff;
+    border-radius: 12px;
 }
 
 .accommodation-item:nth-last-child(-n+3) {
@@ -624,6 +582,7 @@ html {
 .accommodation-item-last {
     position: relative;
     padding-top: 420px;
+    height: 100%;
     border-radius: 12px;
     background-image: url('/images/41.png');
     background-repeat: no-repeat;
@@ -684,13 +643,12 @@ html {
 }
 
 .contacts {
-    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contacts-left {
-    margin-right: 23px;
     padding: 44px;
-    width: 472px;
     border-radius: 12px;
     background-color: #fff;
 }
@@ -755,10 +713,9 @@ html {
 }
 
 .contacts-right {
-    margin-top: 75px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 340px;
+    margin-top: 136px;
+    padding-right: 180px;
+    padding-left: 180px;
 }
 
 .textus-form {
